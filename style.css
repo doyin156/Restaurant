@@ -1,0 +1,271 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+.nav-links a:hover{
+    color: #27a745;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.hero-content h1 {
+    color: #27a745;
+    font-size: 3em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    background-color: #27a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* About Section */
+.about {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* margin-left: 20%; */
+  grid-gap: 10px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.about-image img {
+    /* width: 300px; */
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 35%;
+}
+
+.about-content {
+    padding: 20px;
+}
+
+.about-content h3 {
+    color: #27a745;
+}
+
+.about-content h2 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.about-content button {
+    padding: 10px 20px;
+    background-color: #27a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.services {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-title {
+    color: #00A76A;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.service-card {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.service-card img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.service-card h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.service-card p {
+    color: #666;
+    font-size: 0.9em;
+}
+/* Menu Section */
+.menu {
+    text-align: center;
+    padding: 40px;
+}
+
+.menu h3 {
+    color: #27a745;
+}
+
+.menu h2 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.menu-items {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     gap: 20px;
+    padding: 20px;
+    margin-left: 20%; 
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.menu-item img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.menu-item button {
+    padding: 8px 16px;
+    background-color: #27a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contact h3 {
+    color: #00A76A;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.contact h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact p {
+    color: #666;
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00A76A;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+    margin-top: 1.5em;
+}
+
+.contact-button:hover {
+    background-color: #008956;
+}
+.contact-item :nth-child(1)p{
+    text-align: left;
+}
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 150px;
+}
+.footer-item h3{
+color: #27a745;
+}
+.footer-item  p:nth-child(1){
+    color: #666;
+    font-size: 1em;
+    padding-top: 1em;
+    }
+.footer-item a{
+    color: #666;
+    text-decoration: none;
+    padding-top: 1.5em;
+}
+.footer-item h2{
+    color: #000;
+    padding-bottom: 0.8em;
+}
+.footer-item p{
+    color: #666;
+    padding-bottom: 0.5em;
+}
+ .copyright p{
+    text-align: center;
+    color: #666;
+    padding-top: 1.5em;
+}
